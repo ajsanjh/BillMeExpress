@@ -4,12 +4,12 @@ public class Example {
 	
 	// ignore ARRAY variable below
 	private static final String[] ARRAY = {
-			"Patron 1: I eat at a different restaurant every day. Patron 2: I don’t tip, either.",
+			"Patron 1: I eat at a different restaurant every day. Patron 2: I don't tip, either.",
 			"Did you hear about the new restaurant on the moon? Great food but no atmosphere.",
-			"How many cafeteria staff does it take to change a light bulb? \"Sorry, we closed 18 seconds ago, and I’ve just cashed up.\"",
-			"How many McDonald’s counter girls does it take to change a light bulb? Two. One to change it and one to put some chips with it.",
-			"Why was the restaurant called “Out of this World”? Because it was full of Unidentified Frying Objects.",
-			"Jane’s father decided to take all the family out to a restaurant for a meal. As he d spent quite a lot of money for the meal he said to the waiter, “Could I have a bag to take the leftovers home for the dog?” “Gosh!” exclaimed Jane, “Are we getting a dog?”",
+			"How many cafeteria staff does it take to change a light bulb? \"Sorry, we closed 18 seconds ago, and I've just cashed up.\"",
+			"How many McDonald's counter girls does it take to change a light bulb? Two. One to change it and one to put some chips with it.",
+			"Why was the restaurant called \"Out of this World\"? Because it was full of Unidentified Frying Objects.",
+			"Jane's father decided to take all the family out to a restaurant for a meal. As he spent quite a lot of money for the meal he said to the waiter, \"Could I have a bag to take the leftovers home for the dog?\" \"Gosh!\" exclaimed Jane, \"Are we getting a dog?\"",
 	};
 
 	/**
