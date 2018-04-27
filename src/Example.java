@@ -19,17 +19,17 @@ public class Example {
 	 */
 	public static void run() {
 		/* 
-		 * set up account in the same way as below.
+		 * set up account in the same way as below. account just holds account data.
 		 * first argument is string value of mail address of the APP : has to be gmail
 		 * second argument is string value of the password for the gmail account
 		 */
 		Account account = new Account("resapp22@gmail.com", "resapp@22!");
 		
 		/*
-		 * Set up email content in a similar was as show below
+		 * Set up email content in a similar was as show below: content just holds content data.
 		 * first argument: recipient email address
 		 * second argument: Subject line of the email
-		 * third argument: string message of the eamil
+		 * third argument: string message of the email
 		 * 
 		 * e.g.: Content content = new Content("avirdi.pb@gmail.com", "Welcome New Customer !!", "This is the body of the eamil");
 		 * 
@@ -46,7 +46,7 @@ public class Example {
 		 */
 		GmailOverSSL.send(account, content);
 	}
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		run();
 	}
 	

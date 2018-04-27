@@ -1,0 +1,2 @@
+compile code: javac -cp .:classes:./lib/'*' -d ./bin ./src/*.java
+run compiled code: sudo java -cp ".:classes:./lib/*:classes:./bin" Example
