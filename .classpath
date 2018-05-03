@@ -5,5 +5,9 @@
 	<classpathentry kind="lib" path="lib/activation-1.1.jar"/>
 	<classpathentry kind="lib" path="lib/javaee-api-7.0.jar"/>
 	<classpathentry kind="lib" path="lib/javax.mail-1.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/pi4j-core.jar"/>
+	<classpathentry kind="lib" path="lib/pi4j-device.jar"/>
+	<classpathentry kind="lib" path="lib/pi4j-gpio-extension.jar"/>
+	<classpathentry kind="lib" path="lib/pi4j-service.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
