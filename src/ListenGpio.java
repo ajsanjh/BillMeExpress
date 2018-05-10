@@ -68,7 +68,7 @@ public class ListenGpio {
 			if(event.getState().toString() == "HIGH"){
 				System.out.println("LOG: Bill Table 1");
 				System.out.println("LOG: Sending out Email: ");
-				Account account = new Account("resapp22@gmail.com", "resapp@22!");
+				Account account = new Account("resapp22@gmail.com", "BillMeExpress101");
 				Content content = new Content("notifyBME@gmail.com", "Bill Table 1", "Bill Table 1"); 
 				GmailOverSSL.send(account, content);				
 			}
@@ -92,7 +92,7 @@ public class ListenGpio {
                         if(event.getState().toString() == "HIGH"){
                                 System.out.println("LOG: Bill Table 1");
 				System.out.println("LOG: Sending out Email: ");
-				Account account = new Account("resapp22@gmail.com", "resapp@22!");
+				Account account = new Account("resapp22@gmail.com", "BillMeExpress101");
 				Content content = new Content("notifyBME@gmail.com", "Bill Table 1", "Bill Table 1"); 
 				GmailOverSSL.send(account, content);
                         }

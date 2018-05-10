@@ -23,7 +23,7 @@ public class Example {
 		 * first argument is string value of mail address of the APP : has to be gmail
 		 * second argument is string value of the password for the gmail account
 		 */
-		Account account = new Account("resapp22@gmail.com", "password");
+		Account account = new Account("resapp22@gmail.com", "BillMeExpress101");
 		
 		/*
 		 * Set up email content in a similar was as show below: content just holds content data.
