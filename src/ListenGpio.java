@@ -66,7 +66,11 @@ public class ListenGpio {
                 // display pin state on console
 //                 System.out.println(" --> GPIO PIN STATE CHANGE: " + event.getPin() + " = " + event.getState());
 			if(event.getState().toString() == "HIGH"){
-				System.out.println("LOG: Table 1 is ready to order !");				
+				System.out.println("LOG: Bill Table 1");
+				System.out.println("LOG: Sending out Email: ");
+				Account account = new Account("resapp22@gmail.com", "resapp@22!");
+				Content content = new Content("notifyBME@gmail.com", "Bill Table 1", "Bill Table 1"); 
+				GmailOverSSL.send(account, content);				
 			}
    			if(event.getState().toString() == "LOW"){
 				//System.out.println(":(");
@@ -80,16 +84,16 @@ public class ListenGpio {
 
 
 
-        myButton2.addListener(new GpioPinListenerDigital() {
+        /*myButton2.addListener(new GpioPinListenerDigital() {
             @Override
             public void handleGpioPinDigitalStateChangeEvent(GpioPinDigitalStateChangeEvent event) {
                 // display pin state on console
 //                 System.out.println(" --> GPIO PIN STATE CHANGE: " + event.getPin() + " = " + event.getState());
                         if(event.getState().toString() == "HIGH"){
-                                System.out.println("LOG: Water Refill Table 1");
+                                System.out.println("LOG: Bill Table 1");
 				System.out.println("LOG: Sending out Email: ");
 				Account account = new Account("resapp22@gmail.com", "resapp@22!");
-				Content content = new Content("avirdi.pb@gmail.com", "Water Refill Table 1", "Water Refill Table 1"); 
+				Content content = new Content("notifyBME@gmail.com", "Bill Table 1", "Bill Table 1"); 
 				GmailOverSSL.send(account, content);
                         }
                         if(event.getState().toString() == "LOW"){
@@ -100,7 +104,7 @@ public class ListenGpio {
         });
         System.out.println(" ... complete the GPIO #28 circuit and see the listener feedback here in the console.");
 
-
+	*/
         // keep program running until user aborts (CTRL-C)
         while(true) {
             Thread.sleep(500);
